@@ -1,0 +1,50 @@
+
+
+
+body{
+	background-image: url("../images/Robot.jpg");
+	text-align: center;
+}
+
+.main{
+  display: block;
+  width:70%;
+  height: 900px;
+  margin:0px auto;
+  background-color: lightcyan;
+  text-align: center;
+}
+
+#headfont{
+  font-family:'Bungee Shade';
+  font-size: 80px;
+  padding-top: 60px;
+}
+
+#line0,#line1{
+	display: inline-block;
+}
+
+.question{
+  font-family: 'Anton', sans-serif;
+  line-height: 40px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.answer{
+  font-family: 'Anton', sans-serif;
+  line-height: 40px;
+  font-size: 30px;
+  width: 400px;
+  margin:0 auto;
+}
+
+
+
+
+
+
+
+
