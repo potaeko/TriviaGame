@@ -164,6 +164,7 @@
       $("#line4").html('Noanswer: '+noanswer);
       $("#line5").html("Correct Answer: "+answer[i]);
       $("#line6").html(pic[i]);
+      noanswer--;
       
    }
 
