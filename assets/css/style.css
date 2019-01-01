@@ -1,29 +1,35 @@
 
-
-
 body{
 	background-image: url("../images/Robot.jpg");
-	text-align: center;
+	
+}
+.container{
+  background-color: #ee9393c4;
+  height:100%;
+  width:90%;
+  text-align: center;
 }
 
-.main{
-  display: block;
-  width:70%;
-  height: 900px;
-  margin:0px auto;
-  background-color: lightcyan;
-  text-align: center;
+.row {
+  display:block;
+  overflow:visible;
+  padding-bottom: 200px;
+  margin-top: 50px;
 }
 
 #headfont{
   font-family:'Bungee Shade';
-  font-size: 80px;
+  font-size: 60px;
   padding-top: 60px;
+  text-align: center;
 }
 
-#line0,#line1{
-	display: inline-block;
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .question{
   font-family: 'Anton', sans-serif;
@@ -31,14 +37,49 @@ body{
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
+  text-align: center;
+  display:block;
 }
 
-.answer{
+#answer{
   font-family: 'Anton', sans-serif;
   line-height: 40px;
   font-size: 30px;
-  width: 400px;
   margin:0 auto;
+  display: block;
+}
+
+#line6{
+  text-align: center;
+  display:block;
+}
+
+@media  (max-width: 767px) {
+  .container{
+    margin-top: 5px;
+  }
+  #headfont{
+    font-family:'Bungee Shade';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .question{
+    font-family: 'Anton', sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display:block;
+  }
+  
+  #answer{
+    font-family: 'Anton', sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+    margin:0 auto;
+    display: block;
+  }
 }
 
 
