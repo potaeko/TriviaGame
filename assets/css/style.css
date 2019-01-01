@@ -55,8 +55,12 @@ body{
 }
 
 @media  (max-width: 767px) {
+
   .container{
-    margin-top: 5px;
+    background-color: #ee9393c4;
+    height:100%;
+    width:90%;
+    text-align: center;
   }
   #headfont{
     font-family:'Bungee Shade';
